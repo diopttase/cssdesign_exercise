@@ -10,7 +10,7 @@ ul {
 }
 
 body, html {
-  max-width: 1200px;
+  width: 100%;
   height: 100%;
   overflow-x: hidden;
 }
@@ -78,17 +78,21 @@ body {
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 0 20px;
-  grid-gap: 40px;
+  padding: 0 10px;
+  grid-gap: 20px;
   place-items: center center;
   width: 100%;
   place-content: center center;
 }
 
-.post .post_column {
+.post .post_column img {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 250px;
+  width: 400;
+  background-size: contain;
+  back
 }
 
 .post img {
@@ -97,7 +101,7 @@ body {
   background-size: cover;
 }
 
-.post .post_text {
+.post_column .post_text {
   width: 50%;
   font-size: 18px;
   margin: 0 auto;
